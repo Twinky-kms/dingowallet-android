@@ -1,5 +1,5 @@
 
-package com.breadwallet.presenter.activities.intro;
+package com.dingo.presenter.activities.intro;
 
 import android.content.Intent;
 import android.graphics.Point;
@@ -10,21 +10,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.breadwallet.BuildConfig;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.SetPinActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.security.SmartValidator;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BuildConfig;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.SetPinActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.security.SmartValidator;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.google.firebase.crash.FirebaseCrash;
 import com.jniwrappers.BRKey;
 import com.platform.APIClient;
@@ -33,10 +33,10 @@ import java.io.Serializable;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 8/4/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 8/4/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

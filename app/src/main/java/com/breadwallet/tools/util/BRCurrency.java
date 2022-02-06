@@ -1,8 +1,8 @@
-package com.breadwallet.tools.util;
+package com.dingo.tools.util;
 
 import android.content.Context;
 
-import com.breadwallet.tools.manager.BRSharedPrefs;
+import com.dingo.tools.manager.BRSharedPrefs;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -11,13 +11,13 @@ import java.util.Currency;
 import java.util.Locale;
 import java.util.Objects;
 
-import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_PHOTONS;
+import static com.dingo.tools.util.BRConstants.CURRENT_UNIT_PHOTONS;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/28/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/28/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

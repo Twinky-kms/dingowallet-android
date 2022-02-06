@@ -12,10 +12,10 @@ import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.BreadApp;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
 
 import org.eclipse.jetty.continuation.Continuation;
 import org.eclipse.jetty.server.Request;
@@ -28,10 +28,10 @@ import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 1/12/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 1/12/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

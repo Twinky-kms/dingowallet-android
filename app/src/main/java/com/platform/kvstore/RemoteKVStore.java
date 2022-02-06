@@ -21,10 +21,10 @@ import static android.R.attr.key;
 import static com.platform.kvstore.CompletionObject.RemoteKVStoreError.unknown;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 11/13/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 11/13/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

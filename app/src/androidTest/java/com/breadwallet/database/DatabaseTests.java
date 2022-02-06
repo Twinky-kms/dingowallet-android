@@ -1,24 +1,24 @@
-package com.breadwallet.database;
+package com.dingo.database;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.intro.IntroActivity;
-import com.breadwallet.presenter.entities.BRMerkleBlockEntity;
-import com.breadwallet.presenter.entities.BRPeerEntity;
-import com.breadwallet.presenter.entities.BRTransactionEntity;
-import com.breadwallet.presenter.entities.BlockEntity;
-import com.breadwallet.presenter.entities.CurrencyEntity;
-import com.breadwallet.presenter.entities.PeerEntity;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
-import com.breadwallet.tools.sqlite.MerkleBlockDataSource;
-import com.breadwallet.tools.sqlite.PeerDataSource;
-import com.breadwallet.tools.sqlite.TransactionDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.intro.IntroActivity;
+import com.dingo.presenter.entities.BRMerkleBlockEntity;
+import com.dingo.presenter.entities.BRPeerEntity;
+import com.dingo.presenter.entities.BRTransactionEntity;
+import com.dingo.presenter.entities.BlockEntity;
+import com.dingo.presenter.entities.CurrencyEntity;
+import com.dingo.presenter.entities.PeerEntity;
+import com.dingo.tools.sqlite.CurrencyDataSource;
+import com.dingo.tools.sqlite.MerkleBlockDataSource;
+import com.dingo.tools.sqlite.PeerDataSource;
+import com.dingo.tools.sqlite.TransactionDataSource;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
 import com.platform.interfaces.KVStoreAdaptor;
 import com.platform.kvstore.CompletionObject;
 import com.platform.kvstore.ReplicatedKVStore;
@@ -44,10 +44,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 9/30/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 9/30/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

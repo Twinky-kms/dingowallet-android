@@ -1,10 +1,10 @@
-package com.breadwallet.tools.sqlite;
+package com.dingo.tools.sqlite;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 9/25/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 9/25/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,11 +32,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.NetworkOnMainThreadException;
 import android.util.Log;
 
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.entities.BRPeerEntity;
-import com.breadwallet.presenter.entities.PeerEntity;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.entities.BRPeerEntity;
+import com.dingo.presenter.entities.PeerEntity;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.util.BRConstants;
 
 import java.util.ArrayList;
 import java.util.List;

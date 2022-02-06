@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities;
+package com.dingo.presenter.activities;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -20,29 +20,29 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.camera.ScanQRActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.customviews.BRKeyboard;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.camera.ScanQRActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.customviews.BRKeyboard;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.platform.APIClient;
 
 
-import static com.breadwallet.R.color.white;
-import static com.breadwallet.tools.util.BRConstants.PLATFORM_ON;
-import static com.breadwallet.tools.util.BRConstants.SCANNER_REQUEST;
+import static com.dingo.R.color.white;
+import static com.dingo.tools.util.BRConstants.PLATFORM_ON;
+import static com.dingo.tools.util.BRConstants.SCANNER_REQUEST;
 
 public class LoginActivity extends BRActivity {
     private static final String TAG = LoginActivity.class.getName();

@@ -1,19 +1,19 @@
-package com.breadwallet.tools.adapter;
+package com.dingo.tools.adapter;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.support.v13.app.FragmentPagerAdapter;
 
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.presenter.fragments.FragmentTransactionItem;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.presenter.fragments.FragmentTransactionItem;
 
 import java.util.List;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 4/11/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 4/11/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

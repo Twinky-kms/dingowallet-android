@@ -1,12 +1,12 @@
-package com.breadwallet.tools.sqlite;
+package com.dingo.tools.sqlite;
 
 import android.database.sqlite.SQLiteDatabase;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 10/24/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 10/24/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

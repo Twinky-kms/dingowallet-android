@@ -6,16 +6,16 @@ import android.security.keystore.UserNotAuthenticatedException;
 import android.util.Base64;
 import android.util.Log;
 
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.TypesConverter;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.TypesConverter;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.jniwrappers.BRBIP32Sequence;
 import com.jniwrappers.BRKey;
 import com.platform.APIClient;
@@ -45,10 +45,10 @@ import okhttp3.Response;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 1/25/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 1/25/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

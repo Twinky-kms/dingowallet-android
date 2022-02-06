@@ -1,10 +1,10 @@
 package com.platform.kvstore;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 9/25/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 9/25/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,11 +32,11 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.BreadApp;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
 import com.jniwrappers.BRKey;
 import com.platform.interfaces.KVStoreAdaptor;
 import com.platform.sqlite.KVItem;

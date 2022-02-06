@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.breadwallet.tools.qrcode;
+package com.dingo.tools.qrcode;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -28,7 +28,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.WindowManager;
 
-import com.breadwallet.tools.qrcode.xzing.CameraManager;
+import com.dingo.tools.qrcode.xzing.CameraManager;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
 import com.google.zxing.DecodeHintType;

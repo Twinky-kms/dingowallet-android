@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -15,23 +15,23 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.customviews.BRKeyboard;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.DecelerateOvershootInterpolator;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.customviews.BRKeyboard;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.DecelerateOvershootInterpolator;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/29/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/29/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

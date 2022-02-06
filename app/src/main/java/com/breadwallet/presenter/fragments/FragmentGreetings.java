@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -21,27 +21,27 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.settings.SecurityCenterActivity;
-import com.breadwallet.presenter.activities.settings.SettingsActivity;
-import com.breadwallet.presenter.activities.settings.WebViewActivity;
-import com.breadwallet.presenter.customviews.BRButton;
-import com.breadwallet.presenter.entities.BRMenuItem;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.SlideDetector;
+import com.dingo.R;
+import com.dingo.presenter.activities.settings.SecurityCenterActivity;
+import com.dingo.presenter.activities.settings.SettingsActivity;
+import com.dingo.presenter.activities.settings.WebViewActivity;
+import com.dingo.presenter.customviews.BRButton;
+import com.dingo.presenter.entities.BRMenuItem;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.SlideDetector;
 import com.platform.APIClient;
 import com.platform.HTTPServer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.breadwallet.R.id.menu_listview;
+import static com.dingo.R.id.menu_listview;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/29/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/29/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

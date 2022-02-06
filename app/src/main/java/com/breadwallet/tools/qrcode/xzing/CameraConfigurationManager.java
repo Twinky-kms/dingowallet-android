@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.breadwallet.tools.qrcode.xzing;
+package com.dingo.tools.qrcode.xzing;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -24,8 +24,8 @@ import android.view.Display;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.breadwallet.tools.qrcode.xzing.open.CameraFacing;
-import com.breadwallet.tools.qrcode.xzing.open.OpenCamera;
+import com.dingo.tools.qrcode.xzing.open.CameraFacing;
+import com.dingo.tools.qrcode.xzing.open.OpenCamera;
 
 import java.util.ArrayList;
 import java.util.Arrays;

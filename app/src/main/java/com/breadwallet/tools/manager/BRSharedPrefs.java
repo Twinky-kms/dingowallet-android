@@ -1,11 +1,11 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.tools.util.BRConstants;
 
 import org.json.JSONArray;
 
@@ -15,14 +15,14 @@ import java.util.List;
 import java.util.Locale;
 import java.util.UUID;
 
-import static com.breadwallet.tools.util.BRConstants.GEO_PERMISSIONS_REQUESTED;
-import static com.breadwallet.tools.util.BRConstants.receive;
+import static com.dingo.tools.util.BRConstants.GEO_PERMISSIONS_REQUESTED;
+import static com.dingo.tools.util.BRConstants.receive;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/13/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/13/16.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

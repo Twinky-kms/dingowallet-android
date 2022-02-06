@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,20 +17,20 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.Utils;
 
 import java.math.BigDecimal;
 

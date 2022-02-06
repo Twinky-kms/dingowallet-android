@@ -1,4 +1,4 @@
-package com.breadwallet.tools.adapter;
+package com.dingo.tools.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,23 +20,23 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.customviews.BRText;
-import com.breadwallet.presenter.entities.CurrencyEntity;
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.manager.PromptManager;
-import com.breadwallet.tools.manager.TxManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRDateUtil;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.customviews.BRText;
+import com.dingo.presenter.entities.CurrencyEntity;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.manager.PromptManager;
+import com.dingo.tools.manager.TxManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.sqlite.CurrencyDataSource;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRDateUtil;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
+import com.dingo.wallet.BRWalletManager;
 import com.platform.APIClient;
 import com.platform.entities.TxMetaData;
 import com.platform.kvstore.RemoteKVStore;
@@ -58,10 +58,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/27/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/27/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

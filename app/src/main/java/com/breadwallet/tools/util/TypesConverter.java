@@ -1,4 +1,4 @@
-package com.breadwallet.tools.util;
+package com.dingo.tools.util;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -7,10 +7,10 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 9/28/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 9/28/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

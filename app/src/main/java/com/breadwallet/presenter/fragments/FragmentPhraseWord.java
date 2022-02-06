@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -12,16 +12,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.breadwallet.R;
+import com.dingo.R;
 
 import org.w3c.dom.Text;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/14/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/14/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

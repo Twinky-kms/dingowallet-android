@@ -1,4 +1,4 @@
-package com.breadwallet.tools.security;
+package com.dingo.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,28 +15,28 @@ import android.text.style.ClickableSpan;
 import android.util.Log;
 import android.view.View;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.exceptions.BRKeystoreErrorException;
-import com.breadwallet.presenter.activities.SetPinActivity;
-import com.breadwallet.presenter.activities.PaperKeyActivity;
-import com.breadwallet.presenter.activities.PaperKeyProveActivity;
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.presenter.activities.settings.WithdrawBchActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.entities.PaymentItem;
-import com.breadwallet.presenter.entities.PaymentRequestWrapper;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.threads.PaymentProtocolPostPaymentTask;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.TypesConverter;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.exceptions.BRKeystoreErrorException;
+import com.dingo.presenter.activities.SetPinActivity;
+import com.dingo.presenter.activities.PaperKeyActivity;
+import com.dingo.presenter.activities.PaperKeyProveActivity;
+import com.dingo.presenter.activities.intro.WriteDownActivity;
+import com.dingo.presenter.activities.settings.WithdrawBchActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.entities.PaymentItem;
+import com.dingo.presenter.entities.PaymentRequestWrapper;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.threads.PaymentProtocolPostPaymentTask;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.TypesConverter;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.jniwrappers.BRKey;
 import com.platform.APIClient;
 import com.platform.entities.TxMetaData;
@@ -52,10 +52,10 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 4/14/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 4/14/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

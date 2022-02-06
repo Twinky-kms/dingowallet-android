@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.tools.crypto.CryptoHelper;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.util.TypesConverter;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.tools.crypto.CryptoHelper;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.util.TypesConverter;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.platform.APIClient;
 import com.platform.BRHTTPHelper;
 import com.platform.HTTPServer;
@@ -36,10 +36,10 @@ import okhttp3.Response;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 10/17/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 10/17/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

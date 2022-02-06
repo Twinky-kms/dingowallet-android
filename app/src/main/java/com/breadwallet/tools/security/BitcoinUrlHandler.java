@@ -1,19 +1,19 @@
-package com.breadwallet.tools.security;
+package com.dingo.tools.security;
 
 import android.app.Activity;
 import android.util.Log;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.entities.PaymentItem;
-import com.breadwallet.presenter.entities.PaymentRequestWrapper;
-import com.breadwallet.presenter.entities.RequestObject;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BREventManager;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.threads.PaymentProtocolTask;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.entities.PaymentItem;
+import com.dingo.presenter.entities.PaymentRequestWrapper;
+import com.dingo.presenter.entities.RequestObject;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BREventManager;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.threads.PaymentProtocolTask;
+import com.dingo.wallet.BRWalletManager;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
@@ -25,10 +25,10 @@ import java.util.Map;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 10/19/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 10/19/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

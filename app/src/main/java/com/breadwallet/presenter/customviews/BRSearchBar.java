@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.customviews;
+package com.dingo.presenter.customviews;
 
 import android.content.Context;
 import android.os.Handler;
@@ -12,11 +12,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.manager.TxManager;
-import com.breadwallet.tools.threads.BRExecutor;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.manager.TxManager;
+import com.dingo.tools.threads.BRExecutor;
 
 import org.eclipse.jetty.webapp.MetaData;
 
@@ -24,10 +24,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 5/8/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 5/8/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

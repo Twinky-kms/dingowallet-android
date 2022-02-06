@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -9,11 +9,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.util.BRConstants;
 
 import java.util.Locale;
 

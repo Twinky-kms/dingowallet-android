@@ -1,4 +1,4 @@
-//package com.breadwallet.presenter.currencyformatting.tests;
+//package com.dingo.presenter.currencyformatting.tests;
 //
 //import android.test.AndroidTestCase;
 //

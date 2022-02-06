@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.util;
+package com.dingo.presenter.activities.util;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -8,17 +8,17 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.DisabledActivity;
-import com.breadwallet.presenter.activities.InputWordsActivity;
-import com.breadwallet.presenter.activities.SetPinActivity;
-import com.breadwallet.presenter.activities.intro.IntroActivity;
-import com.breadwallet.presenter.activities.intro.RecoverActivity;
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.tools.manager.InternetManager;
-import com.breadwallet.tools.manager.BRApiManager;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.threads.BRExecutor;
+import com.dingo.R;
+import com.dingo.presenter.activities.DisabledActivity;
+import com.dingo.presenter.activities.InputWordsActivity;
+import com.dingo.presenter.activities.SetPinActivity;
+import com.dingo.presenter.activities.intro.IntroActivity;
+import com.dingo.presenter.activities.intro.RecoverActivity;
+import com.dingo.presenter.activities.intro.WriteDownActivity;
+import com.dingo.tools.manager.InternetManager;
+import com.dingo.tools.manager.BRApiManager;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.threads.BRExecutor;
 import com.platform.HTTPServer;
 
 import java.util.List;
@@ -27,10 +27,10 @@ import static android.content.Context.ACTIVITY_SERVICE;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 4/27/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 4/27/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

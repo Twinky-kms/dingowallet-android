@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.customviews;
+package com.dingo.presenter.customviews;
 
 /**
  * DO WHAT YOU WANT TO PUBLIC LICENSE

@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -16,15 +16,15 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.TrustedNode;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.TrustedNode;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
 
 
 public class NodesActivity extends BRActivity {

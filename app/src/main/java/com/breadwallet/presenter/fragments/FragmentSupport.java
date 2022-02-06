@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Fragment;
 import android.content.pm.ApplicationInfo;
@@ -21,10 +21,10 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
-import com.breadwallet.R;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.SlideDetector;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.SlideDetector;
+import com.dingo.tools.util.Utils;
 import com.platform.HTTPServer;
 
 import java.net.URI;
@@ -34,10 +34,10 @@ import static com.platform.HTTPServer.URL_SUPPORT;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/29/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/29/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -3,10 +3,10 @@ package com.platform.tools;
 import android.content.Context;
 import android.util.Log;
 
-import com.breadwallet.tools.crypto.CryptoHelper;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.util.BRCompressor;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.tools.crypto.CryptoHelper;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.util.BRCompressor;
+import com.dingo.tools.util.Utils;
 import com.platform.APIClient;
 import com.platform.entities.TxMetaData;
 import com.platform.entities.WalletInfo;
@@ -25,10 +25,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 6/22/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 6/22/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

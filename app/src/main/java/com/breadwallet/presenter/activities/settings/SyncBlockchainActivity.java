@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,16 +7,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.wallet.BRPeerManager;
 
 
 public class SyncBlockchainActivity extends BRActivity {

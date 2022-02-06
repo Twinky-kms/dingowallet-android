@@ -1,9 +1,9 @@
-package com.breadwallet.tools.security;
+package com.dingo.tools.security;
 
 import android.util.Log;
 
-import com.breadwallet.presenter.entities.PaymentRequestWrapper;
-import com.breadwallet.exceptions.CertificateChainNotFound;
+import com.dingo.presenter.entities.PaymentRequestWrapper;
+import com.dingo.exceptions.CertificateChainNotFound;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -26,10 +26,10 @@ import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 11/11/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 11/11/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -31,41 +31,41 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.settings.WebViewActivity;
-import com.breadwallet.presenter.customviews.BRButton;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.customviews.BRKeyboard;
-import com.breadwallet.presenter.customviews.BRLinearLayoutWithCaret;
-import com.breadwallet.presenter.customviews.BRText;
-import com.breadwallet.presenter.entities.PaymentItem;
-import com.breadwallet.presenter.entities.RequestObject;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.animation.SlideDetector;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.manager.BRClipboardManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
-import com.breadwallet.tools.security.BRSender;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.settings.WebViewActivity;
+import com.dingo.presenter.customviews.BRButton;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.customviews.BRKeyboard;
+import com.dingo.presenter.customviews.BRLinearLayoutWithCaret;
+import com.dingo.presenter.customviews.BRText;
+import com.dingo.presenter.entities.PaymentItem;
+import com.dingo.presenter.entities.RequestObject;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.animation.SlideDetector;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.manager.BRClipboardManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.BitcoinUrlHandler;
+import com.dingo.tools.security.BRSender;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
 
-import static com.breadwallet.tools.security.BitcoinUrlHandler.getRequestFromString;
+import static com.dingo.tools.security.BitcoinUrlHandler.getRequestFromString;
 import static com.platform.HTTPServer.URL_SUPPORT;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/29/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/29/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

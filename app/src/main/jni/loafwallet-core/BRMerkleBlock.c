@@ -2,7 +2,7 @@
 //  BRMerkleBlock.c
 //
 //  Created by Aaron Voisine on 8/6/15.
-//  Copyright (c) 2015 breadwallet LLC
+//  Copyright (c) 2015 dingo LLC
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -289,7 +289,7 @@ int BRMerkleBlockIsValid(const BRMerkleBlock *block, uint32_t currentTime)
     
     for (int i = sizeof(t) - 1; r && i >= 0; i--) { // check proof-of-work
         if (block->powHash.u8[i] < t.u8[i]) break;
-        if (block->powHash.u8[i] > t.u8[i]) {
+        if (block->powHash.u8[i] > t.u8[i]) break; {
             r = 0;
             loaf_log("invalid pow[%d]: %x - %x", i, block->powHash.u8[i], t.u8[i]);
         }

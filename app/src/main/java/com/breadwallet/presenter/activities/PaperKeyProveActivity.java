@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities;
+package com.dingo.presenter.activities;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,19 +18,19 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.interfaces.BROnSignalCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.SmartValidator;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.tools.util.Bip39Reader;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.interfaces.BROnSignalCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.SmartValidator;
+import com.dingo.tools.util.Utils;
+import com.dingo.tools.util.Bip39Reader;
 import java.util.Locale;
 import java.util.Random;
 

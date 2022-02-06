@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,16 +14,16 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.entities.BRSettingsItem;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.entities.BRSettingsItem;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.breadwallet.R.layout.settings_list_item;
-import static com.breadwallet.R.layout.settings_list_section;
+import static com.dingo.R.layout.settings_list_item;
+import static com.dingo.R.layout.settings_list_section;
 
 public class AdvancedActivity extends BRActivity {
     private static final String TAG = AdvancedActivity.class.getName();

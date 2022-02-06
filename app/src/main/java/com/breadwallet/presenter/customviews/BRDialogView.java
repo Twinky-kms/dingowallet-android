@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.customviews;
+package com.dingo.presenter.customviews;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -16,16 +16,16 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.util.Utils;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 3/15/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 3/15/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

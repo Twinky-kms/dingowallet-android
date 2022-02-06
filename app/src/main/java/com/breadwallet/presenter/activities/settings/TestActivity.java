@@ -1,9 +1,9 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.os.Bundle;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.BRActivity;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.BRActivity;
 
 public class TestActivity extends BRActivity {
     private static final String TAG = TestActivity.class.getName();

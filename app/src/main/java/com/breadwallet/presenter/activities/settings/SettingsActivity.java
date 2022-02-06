@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,21 +14,21 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.entities.BRSettingsItem;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.AuthManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.entities.BRSettingsItem;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.AuthManager;
 import com.platform.APIClient;
 import com.platform.HTTPServer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.breadwallet.R.layout.settings_list_item;
-import static com.breadwallet.R.layout.settings_list_section;
+import static com.dingo.R.layout.settings_list_item;
+import static com.dingo.R.layout.settings_list_section;
 
 public class SettingsActivity extends BRActivity {
     private static final String TAG = SettingsActivity.class.getName();

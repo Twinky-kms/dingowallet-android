@@ -1,13 +1,13 @@
-package com.breadwallet.security;
+package com.dingo.security;
 
 import android.security.keystore.UserNotAuthenticatedException;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.settings.TestActivity;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.settings.TestActivity;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
 
 import org.junit.Assert;
 import org.junit.Rule;
@@ -16,14 +16,14 @@ import org.junit.runner.RunWith;
 
 import java.io.File;
 
-import static com.breadwallet.tools.security.BRKeyStore.aliasObjectMap;
+import static com.dingo.tools.security.BRKeyStore.aliasObjectMap;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 11/20/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 11/20/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

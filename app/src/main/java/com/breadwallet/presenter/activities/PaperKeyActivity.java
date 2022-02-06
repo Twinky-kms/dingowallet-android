@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities;
+package com.dingo.presenter.activities;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -15,15 +15,15 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.fragments.FragmentPhraseWord;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.fragments.FragmentPhraseWord;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.util.Utils;
 
 import java.util.Locale;
 

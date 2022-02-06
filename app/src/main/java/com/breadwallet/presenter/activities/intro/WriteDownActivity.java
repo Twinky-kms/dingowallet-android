@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.intro;
+package com.dingo.presenter.activities.intro;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,14 +6,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.util.BRConstants;
 
 public class WriteDownActivity extends BRActivity {
     private static final String TAG = WriteDownActivity.class.getName();

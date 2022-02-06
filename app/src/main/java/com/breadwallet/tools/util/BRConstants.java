@@ -1,14 +1,14 @@
-package com.breadwallet.tools.util;
+package com.dingo.tools.util;
 
 import java.math.RoundingMode;
 import java.util.concurrent.TimeUnit;
-import com.breadwallet.BuildConfig;
+import com.dingo.BuildConfig;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 2/16/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 2/16/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

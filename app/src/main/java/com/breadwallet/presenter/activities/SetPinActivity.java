@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities;
+package com.dingo.presenter.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.settings.WebViewActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRKeyboard;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.R;
+import com.dingo.presenter.activities.settings.WebViewActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRKeyboard;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.util.BRConstants;
 import com.platform.HTTPServer;
 
 public class SetPinActivity extends BRActivity {

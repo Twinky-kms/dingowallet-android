@@ -1,4 +1,4 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -15,17 +15,17 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.tools.adapter.TransactionListAdapter;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.listeners.RecyclerItemClickListener;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.tools.adapter.TransactionListAdapter;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.listeners.RecyclerItemClickListener;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
+import com.dingo.wallet.BRWalletManager;
 import com.platform.tools.KVStoreManager;
 
 import java.util.Arrays;
@@ -34,10 +34,10 @@ import java.util.List;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 7/19/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 7/19/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities;
+package com.dingo.presenter.activities;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -9,18 +9,18 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.settings.WebViewActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRKeyboard;
-import com.breadwallet.presenter.interfaces.BROnSignalCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.settings.WebViewActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRKeyboard;
+import com.dingo.presenter.interfaces.BROnSignalCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
 import com.platform.HTTPServer;
 
 public class ReEnterPinActivity extends BRActivity {

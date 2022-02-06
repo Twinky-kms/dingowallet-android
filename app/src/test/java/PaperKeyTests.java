@@ -1,10 +1,10 @@
 import android.util.Log;
 
-import com.breadwallet.tools.security.SmartValidator;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Bip39Reader;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.tools.security.SmartValidator;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Bip39Reader;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -24,10 +24,10 @@ import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 11/3/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 11/3/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,13 +1,13 @@
-package com.breadwallet.screenshots;
+package com.dingo.screenshots;
 
 import android.os.Build;
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.IdlingPolicies;
 import android.support.test.rule.ActivityTestRule;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.tools.animation.BRAnimator;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.tools.animation.BRAnimator;
 
 import org.junit.After;
 import org.junit.Before;
@@ -37,10 +37,10 @@ import tools.fastlane.screengrab.locale.LocaleTestRule;
 import tools.fastlane.screengrab.locale.LocaleUtil;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 10/31/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 10/31/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

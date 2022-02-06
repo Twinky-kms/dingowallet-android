@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,16 +16,16 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.entities.CurrencyEntity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.manager.FontManager;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.BRCurrency;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.entities.CurrencyEntity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.manager.FontManager;
+import com.dingo.tools.sqlite.CurrencyDataSource;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.BRCurrency;
 
 import java.math.BigDecimal;
 import java.util.Currency;

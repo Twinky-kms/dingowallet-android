@@ -1,4 +1,4 @@
-package com.breadwallet.tools.animation;
+package com.dingo.tools.animation;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -23,34 +23,34 @@ import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.OvershootInterpolator;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.LoginActivity;
-import com.breadwallet.presenter.activities.camera.ScanQRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.presenter.fragments.FragmentGreetings;
-import com.breadwallet.presenter.fragments.FragmentMenu;
-import com.breadwallet.presenter.fragments.FragmentSignal;
-import com.breadwallet.presenter.fragments.FragmentReceive;
-import com.breadwallet.presenter.fragments.FragmentRequestAmount;
-import com.breadwallet.presenter.fragments.FragmentSend;
-import com.breadwallet.presenter.fragments.FragmentSupport;
-import com.breadwallet.presenter.fragments.FragmentTransactionDetails;
-import com.breadwallet.presenter.interfaces.BROnSignalCompletion;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.LoginActivity;
+import com.dingo.presenter.activities.camera.ScanQRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.presenter.fragments.FragmentGreetings;
+import com.dingo.presenter.fragments.FragmentMenu;
+import com.dingo.presenter.fragments.FragmentSignal;
+import com.dingo.presenter.fragments.FragmentReceive;
+import com.dingo.presenter.fragments.FragmentRequestAmount;
+import com.dingo.presenter.fragments.FragmentSend;
+import com.dingo.presenter.fragments.FragmentSupport;
+import com.dingo.presenter.fragments.FragmentTransactionDetails;
+import com.dingo.presenter.interfaces.BROnSignalCompletion;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
 
 import java.util.List;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/13/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/13/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

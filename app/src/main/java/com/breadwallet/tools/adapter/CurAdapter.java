@@ -1,4 +1,4 @@
-package com.breadwallet.tools.adapter;
+package com.dingo.tools.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,10 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.customviews.BRButton;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
+import com.dingo.R;
+import com.dingo.presenter.customviews.BRButton;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,10 +20,10 @@ import static android.widget.Adapter.IGNORE_ITEM_VIEW_TYPE;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/27/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/27/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

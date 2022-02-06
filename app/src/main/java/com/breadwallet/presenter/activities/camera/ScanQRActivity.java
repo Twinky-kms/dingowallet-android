@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.camera;
+package com.dingo.presenter.activities.camera;
 
 import android.Manifest;
 import android.app.Activity;
@@ -18,20 +18,20 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.qrcode.QRCodeReaderView;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.qrcode.QRCodeReaderView;
+import com.dingo.tools.security.BitcoinUrlHandler;
 import com.platform.tools.BRBitId;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 3/29/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 3/29/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

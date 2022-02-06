@@ -1,4 +1,4 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.util.Log;
 
@@ -6,10 +6,10 @@ import com.google.firebase.crash.FirebaseCrash;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 10/17/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 10/17/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

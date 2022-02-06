@@ -9,18 +9,18 @@ import android.os.Build;
 import android.os.NetworkOnMainThreadException;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.BuildConfig;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.tools.crypto.Base58;
-import com.breadwallet.tools.manager.BRApiManager;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.crypto.CryptoHelper;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.BuildConfig;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.tools.crypto.Base58;
+import com.dingo.tools.manager.BRApiManager;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.crypto.CryptoHelper;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.jniwrappers.BRKey;
 import com.platform.kvstore.RemoteKVStore;
 import com.platform.kvstore.ReplicatedKVStore;
@@ -62,14 +62,14 @@ import okhttp3.ResponseBody;
 import okio.Buffer;
 import okio.BufferedSink;
 
-import static com.breadwallet.tools.util.BRCompressor.gZipExtract;
+import static com.dingo.tools.util.BRCompressor.gZipExtract;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 9/29/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 9/29/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

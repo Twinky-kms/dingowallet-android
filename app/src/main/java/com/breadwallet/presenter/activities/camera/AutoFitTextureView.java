@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.camera;
+package com.dingo.presenter.activities.camera;
 
 /*
  * Copyright 2014 The Android Open Source Project
@@ -25,7 +25,7 @@ import android.view.TextureView;
 
 import android.content.Context;
 
-import com.breadwallet.R;
+import com.dingo.R;
 
 /**
  * A {@link TextureView} that can be adjusted to a specified aspect ratio.

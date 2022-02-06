@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,34 +10,34 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.customviews.BRToast;
-import com.breadwallet.presenter.entities.RequestObject;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRClipboardManager;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.customviews.BRToast;
+import com.dingo.presenter.entities.RequestObject;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRClipboardManager;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BitcoinUrlHandler;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
+import com.dingo.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
 
-import static com.breadwallet.tools.util.BRConstants.SCANNER_BCH_REQUEST;
+import static com.dingo.tools.util.BRConstants.SCANNER_BCH_REQUEST;
 
 public class WithdrawBchActivity extends BRActivity {
     private static final String TAG = WithdrawBchActivity.class.getName();

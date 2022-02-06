@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.breadwallet.tools.qrcode.xzing.open;
+package com.dingo.tools.qrcode.xzing.open;
 
 import android.hardware.Camera;
 import android.util.Log;

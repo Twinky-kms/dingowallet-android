@@ -1,4 +1,4 @@
-//package com.breadwallet.presenter;
+//package com.dingo.presenter;
 //
 //import android.support.test.rule.ActivityTestRule;
 //import android.support.test.runner.AndroidJUnit4;
@@ -6,8 +6,8 @@
 //import android.widget.Button;
 //import android.widget.TextView;
 //
-//import com.breadwallet.R;
-//import com.breadwallet.presenter.activities.MainActivity;
+//import com.dingo.R;
+//import com.dingo.presenter.activities.MainActivity;
 //
 //import org.junit.Before;
 //import org.junit.Rule;
@@ -23,10 +23,10 @@
 //import static junit.framework.Assert.assertTrue;
 //
 ///**
-// * BreadWallet
+// * DingoWallet
 // * <p/>
 // * Created by Mihail on 8/28/15.
-// * Copyright (c) 2015 Mihail Gutan <mihail@breadwallet.com>
+// * Copyright (c) 2015 Mihail Gutan <mihail@dingo.com>
 // * <p/>
 // * Permission is hereby granted, free of charge, to any person obtaining a copy
 // * of this software and associated documentation files (the "Software"), to deal

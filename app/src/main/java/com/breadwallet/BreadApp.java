@@ -1,4 +1,4 @@
-package com.breadwallet;
+package com.dingo;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -13,10 +13,10 @@ import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.tools.listeners.SyncReceiver;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.tools.listeners.SyncReceiver;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.util.Utils;
 import com.google.firebase.crash.FirebaseCrash;
 
 import java.util.ArrayList;
@@ -27,10 +27,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/22/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/22/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -56,7 +56,7 @@ public class BreadApp extends Application {
     public static int DISPLAY_HEIGHT_PX;
     FingerprintManager mFingerprintManager;
     // host is the server(s) on which the API is hosted
-    public static String HOST = "api.breadwallet.com";
+    public static String HOST = "api.dingo.com";
     private static List<OnAppBackgrounded> listeners;
     private static Timer isBackgroundChecker;
     public static AtomicInteger activityCounter = new AtomicInteger();
@@ -70,7 +70,7 @@ public class BreadApp extends Application {
         super.onCreate();
         if (Utils.isEmulatorOrDebug(this)) {
 //            BRKeyStore.putFailCount(0, this);
-            HOST = "stage2.breadwallet.com";
+            HOST = "stage2.dingo.com";
             FirebaseCrash.setCrashCollectionEnabled(false);
 //            FirebaseCrash.report(new RuntimeException("test with new json file"));
         }

@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.customviews;
+package com.dingo.presenter.customviews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,19 +15,19 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.breadwallet.R;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 2/22/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 2/22/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

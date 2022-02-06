@@ -1,4 +1,4 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -8,18 +8,18 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.BreadApp;
+import com.dingo.wallet.BRPeerManager;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/14/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/14/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

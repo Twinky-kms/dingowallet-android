@@ -1,31 +1,31 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.UpdatePinActivity;
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.presenter.activities.settings.FingerprintActivity;
-import com.breadwallet.presenter.activities.settings.ShareDataActivity;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.UpdatePinActivity;
+import com.dingo.presenter.activities.intro.WriteDownActivity;
+import com.dingo.presenter.activities.settings.FingerprintActivity;
+import com.dingo.presenter.activities.settings.ShareDataActivity;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
 
-import static com.breadwallet.tools.manager.PromptManager.PromptItem.FINGER_PRINT;
-import static com.breadwallet.tools.manager.PromptManager.PromptItem.PAPER_KEY;
-import static com.breadwallet.tools.manager.PromptManager.PromptItem.RECOMMEND_RESCAN;
-import static com.breadwallet.tools.manager.PromptManager.PromptItem.SHARE_DATA;
-import static com.breadwallet.tools.manager.PromptManager.PromptItem.UPGRADE_PIN;
+import static com.dingo.tools.manager.PromptManager.PromptItem.FINGER_PRINT;
+import static com.dingo.tools.manager.PromptManager.PromptItem.PAPER_KEY;
+import static com.dingo.tools.manager.PromptManager.PromptItem.RECOMMEND_RESCAN;
+import static com.dingo.tools.manager.PromptManager.PromptItem.SHARE_DATA;
+import static com.dingo.tools.manager.PromptManager.PromptItem.UPGRADE_PIN;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 7/18/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 7/18/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

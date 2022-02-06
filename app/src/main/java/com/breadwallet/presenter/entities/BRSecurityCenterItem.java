@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.entities;
+package com.dingo.presenter.entities;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,10 +6,10 @@ import android.widget.ImageView;
 import static android.R.attr.checkMark;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 3/13/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 3/13/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -2,15 +2,15 @@ package com.jniwrappers;
 
 import android.app.Activity;
 
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.wallet.BRWalletManager;
 
 import static okhttp3.internal.Internal.instance;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 10/11/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 10/11/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

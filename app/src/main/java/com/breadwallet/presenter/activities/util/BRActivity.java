@@ -1,33 +1,33 @@
-package com.breadwallet.presenter.activities.util;
+package com.dingo.presenter.activities.util;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.presenter.activities.DisabledActivity;
-import com.breadwallet.presenter.activities.intro.IntroActivity;
-import com.breadwallet.presenter.activities.intro.RecoverActivity;
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRApiManager;
-import com.breadwallet.tools.manager.InternetManager;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
-import com.breadwallet.tools.security.PostAuth;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.presenter.activities.DisabledActivity;
+import com.dingo.presenter.activities.intro.IntroActivity;
+import com.dingo.presenter.activities.intro.RecoverActivity;
+import com.dingo.presenter.activities.intro.WriteDownActivity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRApiManager;
+import com.dingo.tools.manager.InternetManager;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.security.BitcoinUrlHandler;
+import com.dingo.tools.security.PostAuth;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.wallet.BRWalletManager;
 import com.platform.HTTPServer;
 import com.platform.tools.BRBitId;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 5/23/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 5/23/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

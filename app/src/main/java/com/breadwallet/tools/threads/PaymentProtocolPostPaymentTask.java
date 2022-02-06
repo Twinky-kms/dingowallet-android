@@ -1,4 +1,4 @@
-package com.breadwallet.tools.threads;
+package com.dingo.tools.threads;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.customviews.BRToast;
-import com.breadwallet.presenter.entities.PaymentRequestWrapper;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
-import com.breadwallet.tools.util.BytesUtil;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.customviews.BRToast;
+import com.dingo.presenter.entities.PaymentRequestWrapper;
+import com.dingo.tools.security.BitcoinUrlHandler;
+import com.dingo.tools.util.BytesUtil;
 
 import java.io.DataOutputStream;
 import java.io.FileNotFoundException;
@@ -25,10 +25,10 @@ import java.util.Map;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 5/9/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 5/9/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

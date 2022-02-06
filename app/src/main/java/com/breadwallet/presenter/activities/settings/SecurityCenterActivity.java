@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.activities.settings;
+package com.dingo.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,17 +17,17 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.presenter.activities.UpdatePinActivity;
-import com.breadwallet.presenter.activities.util.BRActivity;
-import com.breadwallet.presenter.entities.BRSecurityCenterItem;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.activities.intro.WriteDownActivity;
+import com.dingo.presenter.activities.UpdatePinActivity;
+import com.dingo.presenter.activities.util.BRActivity;
+import com.dingo.presenter.entities.BRSecurityCenterItem;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

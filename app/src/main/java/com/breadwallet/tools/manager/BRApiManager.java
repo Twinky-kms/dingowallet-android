@@ -1,4 +1,4 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.presenter.entities.CurrencyEntity;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.presenter.entities.CurrencyEntity;
+import com.dingo.tools.sqlite.CurrencyDataSource;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.google.firebase.crash.FirebaseCrash;
 import com.platform.APIClient;
 
@@ -33,15 +33,15 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.breadwallet.presenter.fragments.FragmentSend.isEconomyFee;
+import static com.dingo.presenter.fragments.FragmentSend.isEconomyFee;
 import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 7/22/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 7/22/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

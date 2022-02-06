@@ -1,32 +1,32 @@
-package com.breadwallet.wallet;
+package com.dingo.wallet;
 
 import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.WorkerThread;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.entities.BlockEntity;
-import com.breadwallet.presenter.entities.PeerEntity;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.manager.PromptManager;
-import com.breadwallet.tools.manager.SyncManager;
-import com.breadwallet.tools.manager.TxManager;
-import com.breadwallet.tools.sqlite.MerkleBlockDataSource;
-import com.breadwallet.tools.sqlite.PeerDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.TrustedNode;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.BreadApp;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.entities.BlockEntity;
+import com.dingo.presenter.entities.PeerEntity;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.manager.PromptManager;
+import com.dingo.tools.manager.SyncManager;
+import com.dingo.tools.manager.TxManager;
+import com.dingo.tools.sqlite.MerkleBlockDataSource;
+import com.dingo.tools.sqlite.PeerDataSource;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.TrustedNode;
+import com.dingo.tools.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 12/10/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 12/10/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

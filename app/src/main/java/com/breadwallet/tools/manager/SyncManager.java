@@ -1,4 +1,4 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -7,18 +7,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.tools.listeners.SyncReceiver;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.tools.listeners.SyncReceiver;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
 
 import java.util.concurrent.TimeUnit;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 9/19/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 9/19/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.customviews;
+package com.dingo.presenter.customviews;
 
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
@@ -21,15 +21,15 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
-import com.breadwallet.R;
-import com.breadwallet.tools.manager.FontManager;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.tools.manager.FontManager;
+import com.dingo.tools.util.Utils;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 5/3/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 5/3/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

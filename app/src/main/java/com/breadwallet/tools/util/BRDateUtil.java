@@ -1,4 +1,4 @@
-package com.breadwallet.tools.util;
+package com.dingo.tools.util;
 
 import android.text.format.DateUtils;
 
@@ -8,10 +8,10 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 6/8/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 6/8/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

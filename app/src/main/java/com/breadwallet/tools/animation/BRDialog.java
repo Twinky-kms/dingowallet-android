@@ -1,4 +1,4 @@
-package com.breadwallet.tools.animation;
+package com.dingo.tools.animation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,14 +7,14 @@ import android.support.annotation.NonNull;
 import android.text.SpannableString;
 import android.util.Log;
 
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.tools.threads.BRExecutor;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.tools.threads.BRExecutor;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 3/15/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 3/15/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

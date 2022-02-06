@@ -1,9 +1,9 @@
-package com.breadwallet.wallet;
+package com.dingo.wallet;
 
-import com.breadwallet.presenter.entities.RequestObject;
-import com.breadwallet.tools.security.BitcoinUrlHandler;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.presenter.entities.RequestObject;
+import com.dingo.tools.security.BitcoinUrlHandler;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.Utils;
 
 
 import org.junit.Assert;
@@ -16,10 +16,10 @@ import static org.junit.Assert.assertEquals;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
  * Created by Mihail Gutan on 4/29/16.
- * Copyright (c) 2016 breadwallet llc <mihail@breadwallet.com>
+ * Copyright (c) 2016 dingo llc <mihail@dingo.com>
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

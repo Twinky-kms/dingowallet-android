@@ -1,18 +1,18 @@
-package com.breadwallet.tools.threads;
+package com.dingo.tools.threads;
 
 import android.app.Activity;
 import android.os.AsyncTask;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.BuildConfig;
-import com.breadwallet.R;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.entities.ImportPrivKeyEntity;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.BreadApp;
+import com.dingo.BuildConfig;
+import com.dingo.R;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.entities.ImportPrivKeyEntity;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.wallet.BRWalletManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,10 +26,10 @@ import java.net.URLConnection;
 import java.nio.charset.Charset;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/2/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/2/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

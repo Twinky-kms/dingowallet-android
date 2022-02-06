@@ -1,4 +1,4 @@
-package com.breadwallet.tools.qrcode;
+package com.dingo.tools.qrcode;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.view.Display;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-import com.breadwallet.BuildConfig;
-import com.breadwallet.R;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.BuildConfig;
+import com.dingo.R;
+import com.dingo.tools.util.Utils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
@@ -37,10 +37,10 @@ import static android.graphics.Color.BLACK;
 import static android.graphics.Color.WHITE;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 3/10/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 3/10/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

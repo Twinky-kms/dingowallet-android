@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;
+package com.dingo.presenter.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -23,20 +23,20 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Button;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.settings.WebViewActivity;
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.SlideDetector;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.manager.TxManager;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRPeerManager;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.presenter.activities.settings.WebViewActivity;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.SlideDetector;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.manager.TxManager;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRPeerManager;
 import com.platform.entities.TxMetaData;
 import com.platform.tools.KVStoreManager;
 
@@ -48,10 +48,10 @@ import java.util.Locale;
 import static com.platform.HTTPServer.URL_SUPPORT;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/29/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/29/15.
+ * Copyright (c) 2016 dingo LLC
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

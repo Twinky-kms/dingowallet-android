@@ -1,4 +1,4 @@
-package com.breadwallet.tools.security;
+package com.dingo.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,23 +7,23 @@ import android.content.Intent;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.camera.ScanQRActivity;
-import com.breadwallet.presenter.activities.intro.IntroActivity;
-import com.breadwallet.presenter.activities.intro.RecoverActivity;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.presenter.activities.camera.ScanQRActivity;
+import com.dingo.presenter.activities.intro.IntroActivity;
+import com.dingo.presenter.activities.intro.RecoverActivity;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
 import com.google.firebase.crash.FirebaseCrash;
 
 import java.security.InvalidKeyException;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 7/31/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 7/31/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

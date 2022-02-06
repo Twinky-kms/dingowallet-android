@@ -7,8 +7,8 @@ android {
         applicationId = 'com.dingowallet'
         minSdkVersion 23
         targetSdkVersion 26
-        versionCode 175
-        versionName "175"
+        versionCode 713
+        versionName "Dingo-713"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,

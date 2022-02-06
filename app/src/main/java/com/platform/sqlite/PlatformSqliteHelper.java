@@ -1,10 +1,10 @@
 package com.platform.sqlite;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 11/8/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 11/8/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.breadwallet.tools.util.BRConstants;
+import com.dingo.tools.util.BRConstants;
 
 public class PlatformSqliteHelper extends SQLiteOpenHelper {
     private static final String TAG = PlatformSqliteHelper.class.getName();

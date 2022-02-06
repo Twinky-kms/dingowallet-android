@@ -1,4 +1,4 @@
-package com.breadwallet.tools.util;
+package com.dingo.tools.util;
 
 import android.Manifest;
 import android.app.Activity;
@@ -20,8 +20,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.intro.IntroActivity;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.intro.IntroActivity;
 import com.google.firebase.crash.FirebaseCrash;
 
 import java.math.BigDecimal;
@@ -35,10 +35,10 @@ import static android.content.Context.FINGERPRINT_SERVICE;
 
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 6/21/16.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 6/21/16.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

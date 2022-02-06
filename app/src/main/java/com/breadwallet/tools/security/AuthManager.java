@@ -1,4 +1,4 @@
-package com.breadwallet.tools.security;
+package com.dingo.tools.security;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;
@@ -10,27 +10,27 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.DisabledActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.fragments.FragmentFingerprint;
-import com.breadwallet.presenter.fragments.FragmentPin;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.dingo.R;
+import com.dingo.presenter.activities.DisabledActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.fragments.FragmentFingerprint;
+import com.dingo.presenter.fragments.FragmentPin;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.util.Utils;
+import com.dingo.wallet.BRWalletManager;
 import com.jniwrappers.BRKey;
 
 import java.util.concurrent.TimeUnit;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 8/20/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 8/20/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-package com.breadwallet.wallet;
+package com.dingo.wallet;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,38 +26,38 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.presenter.customviews.BRDialogView;
-import com.breadwallet.presenter.customviews.BRToast;
-import com.breadwallet.presenter.entities.BRMerkleBlockEntity;
-import com.breadwallet.presenter.entities.BRPeerEntity;
-import com.breadwallet.presenter.entities.BRTransactionEntity;
-import com.breadwallet.presenter.entities.ImportPrivKeyEntity;
-import com.breadwallet.presenter.entities.TxItem;
-import com.breadwallet.presenter.interfaces.BROnSignalCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.BRDialog;
-import com.breadwallet.tools.animation.SpringAnimator;
-import com.breadwallet.tools.manager.BREventManager;
-import com.breadwallet.tools.manager.BRReportsManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.qrcode.QRUtils;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.sqlite.MerkleBlockDataSource;
-import com.breadwallet.tools.sqlite.PeerDataSource;
-import com.breadwallet.tools.sqlite.TransactionDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.threads.ImportPrivKeyTask;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.manager.BRNotificationManager;
-import com.breadwallet.tools.util.BRCurrency;
-import com.breadwallet.tools.util.BRExchange;
-import com.breadwallet.tools.util.TypesConverter;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.tools.util.Bip39Reader;
+import com.dingo.BreadApp;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.activities.util.ActivityUTILS;
+import com.dingo.presenter.customviews.BRDialogView;
+import com.dingo.presenter.customviews.BRToast;
+import com.dingo.presenter.entities.BRMerkleBlockEntity;
+import com.dingo.presenter.entities.BRPeerEntity;
+import com.dingo.presenter.entities.BRTransactionEntity;
+import com.dingo.presenter.entities.ImportPrivKeyEntity;
+import com.dingo.presenter.entities.TxItem;
+import com.dingo.presenter.interfaces.BROnSignalCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.BRDialog;
+import com.dingo.tools.animation.SpringAnimator;
+import com.dingo.tools.manager.BREventManager;
+import com.dingo.tools.manager.BRReportsManager;
+import com.dingo.tools.manager.BRSharedPrefs;
+import com.dingo.tools.qrcode.QRUtils;
+import com.dingo.tools.security.BRKeyStore;
+import com.dingo.tools.sqlite.MerkleBlockDataSource;
+import com.dingo.tools.sqlite.PeerDataSource;
+import com.dingo.tools.sqlite.TransactionDataSource;
+import com.dingo.tools.threads.BRExecutor;
+import com.dingo.tools.threads.ImportPrivKeyTask;
+import com.dingo.tools.util.BRConstants;
+import com.dingo.tools.manager.BRNotificationManager;
+import com.dingo.tools.util.BRCurrency;
+import com.dingo.tools.util.BRExchange;
+import com.dingo.tools.util.TypesConverter;
+import com.dingo.tools.util.Utils;
+import com.dingo.tools.util.Bip39Reader;
 import com.platform.entities.WalletInfo;
 import com.platform.tools.KVStoreManager;
 
@@ -68,13 +68,13 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-import static com.breadwallet.presenter.fragments.FragmentSend.isEconomyFee;
+import static com.dingo.presenter.fragments.FragmentSend.isEconomyFee;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 12/10/15.
- * Copyright (c) 2016 breadwallet LLC
+ * Created by Mihail Gutan <mihail@dingo.com> on 12/10/15.
+ * Copyright (c) 2016 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

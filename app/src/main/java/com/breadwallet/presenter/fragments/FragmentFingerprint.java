@@ -1,4 +1,4 @@
-package com.breadwallet.presenter.fragments;/*
+package com.dingo.presenter.fragments;/*
  * Copyright (C) 2015 The Android Open Source Project 
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); 
@@ -36,14 +36,14 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.presenter.interfaces.BRAuthCompletion;
-import com.breadwallet.tools.animation.BRAnimator;
-import com.breadwallet.tools.animation.DecelerateOvershootInterpolator;
-import com.breadwallet.tools.security.AuthManager;
-import com.breadwallet.tools.security.FingerprintUiHelper;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.R;
+import com.dingo.presenter.activities.BreadActivity;
+import com.dingo.presenter.interfaces.BRAuthCompletion;
+import com.dingo.tools.animation.BRAnimator;
+import com.dingo.tools.animation.DecelerateOvershootInterpolator;
+import com.dingo.tools.security.AuthManager;
+import com.dingo.tools.security.FingerprintUiHelper;
+import com.dingo.tools.util.Utils;
 
 
 /**

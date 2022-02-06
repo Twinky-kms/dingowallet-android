@@ -1,12 +1,12 @@
-package com.breadwallet.tools.manager;
+package com.dingo.tools.manager;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.tools.util.Utils;
+import com.dingo.BreadApp;
+import com.dingo.tools.util.Utils;
 import com.platform.APIClient;
 
 import org.json.JSONArray;
@@ -29,10 +29,10 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
- * BreadWallet
+ * DingoWallet
  * <p/>
- * Created by Mihail Gutan on <mihail@breadwallet.com> 8/3/17.
- * Copyright (c) 2017 breadwallet LLC
+ * Created by Mihail Gutan on <mihail@dingo.com> 8/3/17.
+ * Copyright (c) 2017 dingo LLC
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
