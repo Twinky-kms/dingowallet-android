@@ -1,0 +1,4 @@
+.gradle/*
+app/.cxx/*
+*.iml
+local.properties
